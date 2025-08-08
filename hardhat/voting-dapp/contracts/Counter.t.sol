@@ -29,4 +29,5 @@ contract CounterTest is Test {
     vm.expectRevert();
     counter.incBy(0);
   }
+  
 }
